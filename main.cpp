@@ -15,7 +15,7 @@ int main()
 
 	if( age > 0 && age < 12 )
 		cout << "Hey kid!" << endl;
-	if( age < 18 )
+	if( age < 18 && age > 13 )
 		cout << "I hope you're enjoying highschool!" << endl;
 	else
 		cout << "Oh, you're an adult. Nice to meet you." << endl;
